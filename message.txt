@@ -1,0 +1,35 @@
+<html>
+  <body>
+    <p>
+      Dear ${PERSON_NAME},<br><br>
+      This is a transactions trend between the new BK App Vs the old bk App for the period between <strong> ${MIN_DATE}</strong> and <strong>${MAX_DATE}</strong>.<br>
+      <p style='margin-bottom:5px;color:#03529c;text-align:center'><strong>SUMMARY TABLE:</strong></p>
+      ${SUMMARY_TABLE}
+    
+    <br>
+    Regards,<br>
+    Business Intelligence Team
+<br><br>
+    <table
+                      <tr>
+                        <td bgcolor="#03529c" style="padding: 30px 30px;background-color:#03529c;">
+                          <table border="0" cellpadding="0" cellspacing="0" width="1000" height='50%' style="border-collapse: collapse;">
+                            <tr>
+                              <td style="color: #00000; font-family:Segoe UI , sans-serif; font-size: 14px;">
+                                <p style="margin: 0; color:white">
+                                  For any inquiry please contact:
+                                  <span style='text-decoration:underline'> businessintelligence@bk.rw </span>.
+                              <td align="right">
+                                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+
+                    </table>
+                    </p>
+
+  </body>
+</html>
